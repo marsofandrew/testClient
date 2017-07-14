@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="testClient:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/testClient_jar</output-path>
+    <root id="archive" name="testClient.jar">
+      <element id="module-output" name="testClient" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/zeromq/jeromq/0.4.2/jeromq-0.4.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/zeromq/jnacl/0.1.0/jnacl-0.1.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
